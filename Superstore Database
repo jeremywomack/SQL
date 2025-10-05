@@ -44,7 +44,6 @@ FROM superstore
 WHERE category="Kitchen Supplies"
 
 #Show how many air purifiers are in stock
-
 SELECT item_name, stock_quantity
 FROM superstore
 WHERE item_name='Air Purifier';
